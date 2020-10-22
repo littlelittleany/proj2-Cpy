@@ -29,7 +29,7 @@ let bgX = 0, bgY = 0; //initial position for background and foreground
 function preload(){
 
 //asset ˇˇˇˇˇˇˇˇ asset 
-    bgImg = loadImage("img/background.jpg");
+    bgImg = loadImage('img/background.jpg');
     fgImg = loadImage('img/foreground.png');
     bone = loadImage('img/bone0.png');
     boneAnimation = loadAnimation('img/bone0.png');
