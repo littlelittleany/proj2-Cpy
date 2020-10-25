@@ -29,11 +29,11 @@ let bgX = 0, bgY = 0; //initial position for background and foreground
 function preload(){
 
 //asset ˇˇˇˇˇˇˇˇ asset 
-    bgImg = loadImage('https://drive.google.com/file/d/11Io_uYKL4j43ZwjTexqDx92MH_PwDXve/view?usp=sharing');
-    fgImg = loadImage('foreground.png');
-    bone = loadImage('bone0.png');
-    boneAnimation = loadAnimation('bone0.png');
-    doggoAnimation = loadAnimation('dong0.png', 'dong6.png');
+    bgImg = loadImage('https://github.com/littlelittleany/proj2-Cpy/img/background.jpg');
+    fgImg = loadImage('https://github.com/littlelittleany/proj2-Cpy/img/forergound.png');
+    bone = loadImage('https://github.com/littlelittleany/proj2-Cpy/img/bone0.png');
+    boneAnimation = loadAnimation('https://github.com/littlelittleany/proj2-Cpy/img/bone0.png');
+    doggoAnimation = loadAnimation('https://github.com/littlelittleany/proj2-Cpy/img/dong0.png', 'https://github.com/littlelittleany/proj2-Cpy/img/dong6.png');
 
 
     doggoImg = loadImage('dong0.png');
