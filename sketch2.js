@@ -29,14 +29,14 @@ let bgX = 0, bgY = 0; //initial position for background and foreground
 function preload(){
 
 //asset ˇˇˇˇˇˇˇˇ asset 
-    bgImg = loadImage('img/background.jpg');
-    fgImg = loadImage('img/forergound.png');
-    bone = loadImage('img/bone0.png');
-    boneAnimation = loadAnimation('img/bone0.png');
-    doggoAnimation = loadAnimation('img/dong0.png', 'img/dong6.png');
+    bgImg = loadImage('https://res.cloudinary.com/dsdqeqlzj/image/upload/v1603732835/background_af4t2m.jpg');
+    fgImg = loadImage('https://res.cloudinary.com/dsdqeqlzj/image/upload/v1603732847/foreground_ne2vva.png');
+    bone = loadImage('https://res.cloudinary.com/dsdqeqlzj/image/upload/v1603732830/bone0_pmul7k.png');
+    boneAnimation = loadAnimation('https://res.cloudinary.com/dsdqeqlzj/image/upload/v1603732830/bone0_pmul7k.png');
+    doggoAnimation = loadAnimation('https://res.cloudinary.com/dsdqeqlzj/image/upload/v1603732830/dong0.png', 'https://res.cloudinary.com/dsdqeqlzj/image/upload/v1603732831/dong6.png');
 
 
-    doggoImg = loadImage('dong0.png');
+    doggoImg = loadImage('https://res.cloudinary.com/dsdqeqlzj/image/upload/v1603732830/dong0.png');
 
 //ˇˇDog running animation ˇˇˇˇ dog running animationˇˇˇˇ
 
